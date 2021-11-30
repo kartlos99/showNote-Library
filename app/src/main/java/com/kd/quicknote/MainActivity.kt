@@ -2,7 +2,7 @@ package com.kd.quicknote
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.kd.simplenotelib.ShowNote
+//import com.kd.simplenotelib.ShowNote
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -10,9 +10,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        ShowNote.asToast(this, "hey there")
+//        ShowNote.asToast(this, "hey there")
 
-        ShowNote.asSnackBar(window.decorView, "my base snack")
+//        ShowNote.asSnackBar(window.decorView, "my base snack")
 
     }
 }
